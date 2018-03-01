@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B283E19A20488B2600FEB4E5 /* Constraintable.h in Headers */ = {isa = PBXBuildFile; fileRef = B283E19820488B2600FEB4E5 /* Constraintable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B283E1A120488B2C00FEB4E5 /* Constraintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B283E1A020488B2B00FEB4E5 /* Constraintable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B283E19520488B2600FEB4E5 /* Constraintable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Constraintable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B283E19820488B2600FEB4E5 /* Constraintable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constraintable.h; sourceTree = "<group>"; };
 		B283E19920488B2600FEB4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B283E1A020488B2B00FEB4E5 /* Constraintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraintable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		B283E19720488B2600FEB4E5 /* Constraintable */ = {
 			isa = PBXGroup;
 			children = (
+				B283E1A020488B2B00FEB4E5 /* Constraintable.swift */,
 				B283E19820488B2600FEB4E5 /* Constraintable.h */,
 				B283E19920488B2600FEB4E5 /* Info.plist */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B283E1A120488B2C00FEB4E5 /* Constraintable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +265,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Constraintable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.straint.Constraintable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -281,6 +286,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Constraintable/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.straint.Constraintable;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
